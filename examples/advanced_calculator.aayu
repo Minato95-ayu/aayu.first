@@ -1,0 +1,43 @@
+task add with num1 and num2.
+    result is num1 + num2.
+end.
+
+task subtract with num1 and num2.
+    result is num1 - num2.
+end.
+
+task multiply with num1 and num2.
+    result is num1 * num2.
+end.
+
+task divide with num1 and num2.
+    result is num1 / num2.
+end.
+
+show "--- Aayu Advanced Calculator ---".
+
+number a is 100.
+number b is 25.
+
+show "First Number:".
+show a.
+show "Second Number:".
+show b.
+
+show "--- Results ---".
+
+show "Addition (a + b):".
+run add with a and b.
+show result.
+
+show "Subtraction (a - b):".
+run subtract with a and b.
+show result.
+
+show "Multiplication (a * b):".
+run multiply with a and b.
+show result.
+
+show "Division (a / b):".
+run divide with a and b.
+show result.
