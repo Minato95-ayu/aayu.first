@@ -1,0 +1,29 @@
+record BankAccount.
+    owner
+    balance
+end.
+
+BankAccount my_account is.
+    owner "Ayush"
+    balance 1000
+end.
+
+show "--- Initial Account ---".
+show owner of my_account.
+show "Balance:".
+show balance of my_account.
+
+show "--- Depositing 500 ---".
+number current_balance is balance of my_account.
+balance of my_account is current_balance + 500.
+show "New Balance:".
+show balance of my_account.
+
+show "--- Withdrawing 200 ---".
+current_balance is balance of my_account.
+if current_balance greater than 200.
+    balance of my_account is current_balance - 200.
+    show "Withdrawal successful!".
+end.
+show "Final Balance:".
+show balance of my_account.
