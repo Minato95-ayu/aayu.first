@@ -1,0 +1,6 @@
+task add with first and second.
+    result is first + second.
+end.
+
+number total is run add with 10 and 20.
+show total.

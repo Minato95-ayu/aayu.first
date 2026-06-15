@@ -1,0 +1,17 @@
+record Owner.
+    name
+end.
+
+record Library.
+    owner
+end.
+
+Owner owner1 is.
+    name "Rahul"
+end.
+
+Library library1 is.
+    owner owner1
+end.
+
+show name of owner of library1.

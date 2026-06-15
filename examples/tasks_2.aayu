@@ -1,0 +1,7 @@
+task welcome.
+    show "Welcome to Aayu".
+end.
+
+repeat 3 times.
+    run welcome.
+end.

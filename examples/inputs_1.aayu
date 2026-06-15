@@ -1,0 +1,5 @@
+task greet with name.
+    show name.
+end.
+
+run greet with "Ayush".

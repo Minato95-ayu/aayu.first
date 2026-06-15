@@ -1,0 +1,5 @@
+use circ_b.
+
+task test_a.
+    show "A loaded".
+end.

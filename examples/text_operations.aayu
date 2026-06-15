@@ -1,0 +1,6 @@
+text first_name is "Ayush".
+text last_name is "Kaushik".
+
+text full_name is first_name + " " + last_name.
+
+show full_name.

@@ -1,0 +1,16 @@
+record Student.
+
+    name
+    age
+
+end.
+
+Student student1 is.
+
+    name "Ayush"
+    age 20
+
+end.
+
+show name of student1.
+show age of student1.

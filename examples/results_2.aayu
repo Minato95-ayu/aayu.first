@@ -1,0 +1,6 @@
+task square with val.
+    result is val * val.
+end.
+
+number answer is run square with 5.
+show answer.

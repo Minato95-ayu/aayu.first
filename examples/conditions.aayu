@@ -1,0 +1,5 @@
+number age is 20.
+
+if age greater than 18.
+    show "Adult".
+end.

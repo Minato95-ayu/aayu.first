@@ -1,0 +1,6 @@
+task greet.
+    show "Hello".
+end.
+
+run greet.
+run greet.

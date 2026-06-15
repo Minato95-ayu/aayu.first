@@ -1,0 +1,9 @@
+list students is.
+    "Ayush"
+    "Rahul"
+    "Aman"
+end.
+
+for each student in students.
+    show student.
+end.

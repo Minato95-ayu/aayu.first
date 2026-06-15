@@ -1,0 +1,16 @@
+record Student.
+    name
+    age
+end.
+
+Student student1 is.
+    name "Ayush"
+    age 20
+end.
+
+name of student1 is "Rahul".
+show name of student1.
+
+number score is 10.
+score is 50.
+show score.

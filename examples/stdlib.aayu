@@ -1,0 +1,11 @@
+text name is "Ayush".
+show upper of name.
+show lower of name.
+
+list students is.
+    "Ayush"
+    "Rahul"
+end.
+
+show count of students.
+show length of students.
