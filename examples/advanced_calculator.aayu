@@ -27,17 +27,17 @@ show b.
 show "--- Results ---".
 
 show "Addition (a + b):".
-run add with a and b.
-show result.
+number add_res is run add with a and b.
+show add_res.
 
 show "Subtraction (a - b):".
-run subtract with a and b.
-show result.
+number sub_res is run subtract with a and b.
+show sub_res.
 
 show "Multiplication (a * b):".
-run multiply with a and b.
-show result.
+number mul_res is run multiply with a and b.
+show mul_res.
 
 show "Division (a / b):".
-run divide with a and b.
-show result.
+number div_res is run divide with a and b.
+show div_res.
